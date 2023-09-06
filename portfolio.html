@@ -156,33 +156,35 @@ footer .footer-rights{
     color: gray;
     padding: 12px 0;
 }
+a{
+    color:white;
+}
     </style>
 </head>
 <body>
     <header>
         <nav>
-            <div class="left">Naveen's Portfolio</div>
+            <div class="left" id="first">Naveen's Portfolio</div>
             <div class="right">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Services</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Contact Me</a></li>
+                    <li><a href="#first">Home</a></li>
+                    <li><a href="#firstsection">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <section class="firstSection">
+        <section class="firstSection" id="firstsection">
             <div class="leftSection">
                 Hi, My name is <span class="purple">Naveen</span>
 
                 <div>and I am a passionate</div>
                 <span id="element"></span>
                 <div class="buttons">
-                    <button class="btn">Download Resume</button>
-                    <button class="btn">Visit Github</button>
+                    <button class="btn" >Download Resume</button>
+                    <button class="btn"><a href="https://github.com/Naveennayak022">Visit Github</a></button>
                 </div>
 
             </div>
@@ -192,47 +194,49 @@ footer .footer-rights{
 
         </section>
 
-       <hr> <section class="secondSection">
+       <hr> <section class="secondSection" id="project">
         <span class="text-gray">What i have done so far</span>
-            <h1>Work Experience</h1>
+            <h1>PROJECTS</h1>
             
             <div class="box">
                 <div class="vertical">
                     <img class="image-top" src="twitter.png" alt="">
                     <div class="vertical-text">
-                        HTML Developer (2010-2012)
+                        Online Job Portal
                     </div>
                     <div class="vertical-desc">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem architecto cumque quas reprehenderit recusandae nesciunt dolor, eveniet molestias consectetur repudiandae tenetur sapiente iste dolores alias beatae saepe ab earum eius?
+                        It acts as an bridge between the employer and the job seeker.It was developed using HTML, CSS, PHP and JavaScript.
                     </div>
                 </div>
                 <div class="vertical">
                     <img class="image-top" src="instagram.png" alt="">
                     <div class="vertical-text">
-                        CSS Developer (2012-2014)
+                        Apartement Management
                     </div>
                     <div class="vertical-desc">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem architecto cumque quas reprehenderit recusandae nesciunt dolor, eveniet molestias consectetur repudiandae tenetur sapiente iste dolores alias beatae saepe ab earum eius?
+                        It tries to digitalize the traditional way of maintaining records.It was developed using HTML, CSS, PHP and JavaScript.
                     </div>
                 </div>
                 <div class="vertical">
-                    <img class="image-top" src="you tube.png" alt="">
+                    <img class="image-top" src="instagram.png" alt="">
                     <div class="vertical-text">
-                        MYSQL Developer (2014-2016)
+                        Airport Simulator
                     </div>
                     <div class="vertical-desc">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem architecto cumque quas reprehenderit recusandae nesciunt dolor, eveniet molestias consectetur repudiandae tenetur sapiente iste dolores alias beatae saepe ab earum eius?
+                        It tries to stimulate the environment of the airport runway.
                     </div>
                 </div>
                 <div class="vertical">
-                    <img class="image-top" src="meta.png" alt="">
+                    <img class="image-top" src="instagram.png" alt="">
                     <div class="vertical-text">
-                        Python Developer (2016-2022)
+                        Coin Toss
                     </div>
                     <div class="vertical-desc">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem architecto cumque quas reprehenderit recusandae nesciunt dolor, eveniet molestias consectetur repudiandae tenetur sapiente iste dolores alias beatae saepe ab earum eius?
+                        It tries to digitalize the traditional way of tossing a coin.
                     </div>
                 </div>
+
+                
                 
 
             </div>
@@ -240,16 +244,19 @@ footer .footer-rights{
         </section>
     </main>
     <footer>
-        <div class="footer">
+        <div class="footer" id="contact">
             <div class="footer-first">
-                <h3>Naveen's Developer Portfolio</h3></div>
+                <h3>Naveen's Portfolio</h3>
+                <h3>Email</h3><h3>naveennayak022@gmail.com</h3>
+            </div>
 
                 <div class="footer-second">
 <ul>
-    <li>Home</li>
-    <li>About</li>
-    <li>Contact</li>
-    <li>Services</li>
+    <li><a href=#first>Home</a></li>
+    <li><a href=#firstsection>About</a></li>
+    <li><a href=#project>Projects</a></li>
+    <li><a href=#contact>Contact</a></li>
+    
 </ul>
 </div>
                    
