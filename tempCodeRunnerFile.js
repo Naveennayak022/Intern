@@ -1,0 +1,1 @@
+var ageString = prompt("Please enter your age:");

@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "name": "intern",
+  "description": "This repository is created for internship",
+  "version": "1.0.0",
+  "main": "dashboard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naveennayak022/intern.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naveennayak022/intern/issues"
+  },
+  "homepage": "https://github.com/Naveennayak022/intern#readme"
+}
